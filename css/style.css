@@ -16,7 +16,7 @@ body{
 }
 
 header{
-    background-color: aquamarine;
+    background-color: navajowhite;
     text-align: center;
     color: white;
     padding: 10px;
@@ -28,6 +28,56 @@ header{
 }
 
 section{
+    padding: 20px;
+    background-image: url(../images/people.jpg);
+    background-size: cover;
+    overflow: hidden;
+    
+
+
+}
+
+.formContainer{
+    max-width: 230px;
+    background-color: #ffffffbb;
+    padding: 20px;
+    float: right;
+    font-weight: bold;
+
+
+
+}
+
+h2{
+    font-size: 16px;
+}
+
+.mb{
+    margin-bottom: 15px ;
+}
+
+input, select{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+input[type="submit"]{
     color: white;
+    background-color: navajowhite ;
+}
+
+select{
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+
+    background-image: url(../images/arrow.jpg);
+    background-repeat : no-repeat ;
+    background-position: calc(100% - 10px) center;
+
+   
 
 }
